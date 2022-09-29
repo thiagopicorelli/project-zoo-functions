@@ -17,10 +17,7 @@ function getRelatedEmployees(managerId) {
 
   const managedEmployees = data.employees.filter((employ) => employ.managers.includes(managerId));
 
-  const employeeNames = managedEmployees.reduce((employeeList, employee) => {
-    employeeList.push(`${employee.firstName} ${employee.lastName}`);
-    return employeeList;
-  }, []);
+  const employeeNames = managedEmployees.map((employ) => `${employ.firstName} ${employ.lastName}`);
 
   return employeeNames;
 }
