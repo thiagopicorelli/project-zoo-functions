@@ -22,11 +22,11 @@ function calculateEntry(entrants) {
   const entrantsCount = countEntrants(entrants);
 
   let val = 0;
-  for (const age in entrantsCount) {
+  for (let i = 0; i < Object.keys(entrants).length; i += 1) {
+    const age = Object.keys(entrants);
     val += data.prices[age] * entrantsCount[age];
   }
   return val;
-
 }
 
 module.exports = { calculateEntry, countEntrants };
