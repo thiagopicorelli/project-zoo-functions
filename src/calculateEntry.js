@@ -22,10 +22,10 @@ function calculateEntry(entrants) {
   const entrantsCount = countEntrants(entrants);
 
   let val = 0;
-  for (let i = 0; i < Object.keys(entrants).length; i += 1) {
-    const age = Object.keys(entrants);
+  Object.keys(entrantsCount).forEach((age) => {
     val += data.prices[age] * entrantsCount[age];
-  }
+  });
+
   return val;
 }
 
