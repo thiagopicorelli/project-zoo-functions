@@ -4,7 +4,7 @@ Trabalho feito na Trybe de múltiplas funções de um sistema de Zoológico em J
 ## Pastas trabalhadas
 [/src](https://github.com/thiagopicorelli/project-zoo-functions/tree/main/src)
 
-[/tests](https://github.com/thiagopicorelli/project-zoo-functions/tree/main/tests)
+[/test](https://github.com/thiagopicorelli/project-zoo-functions/tree/main/test)
 
 ## Linguagens
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
